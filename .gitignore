@@ -1,0 +1,19 @@
+# Ignorar archivos CSV grandes o sensibles
+*.csv
+
+# Ignorar checkpoints de notebooks
+.ipynb_checkpoints/
+
+# Ignorar archivos de entorno
+.env
+*.env
+
+# Ignorar modelos pesados
+*.pkl
+*.joblib
+
+
+# Archivos del sistema o editores
+.DS_Store
+.vscode/
+__pycache__/

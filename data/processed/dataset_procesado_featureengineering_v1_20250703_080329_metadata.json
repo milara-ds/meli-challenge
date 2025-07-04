@@ -1,0 +1,236 @@
+{
+  "filename": "dataset_procesado_featureengineering_v1_20250703_080329.csv",
+  "timestamp": "20250703_080329",
+  "rows": 85060,
+  "columns": 20,
+  "column_info": {
+    "price": {
+      "dtype": "float64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "category_id": {
+      "dtype": "object",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "seller_id": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "is_new": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "sold_quantity": {
+      "dtype": "float64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "available_quantity": {
+      "dtype": "float64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "sold": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "weekday": {
+      "dtype": "int32",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "len_title": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "num_variations": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "num_pictures": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "shipping_admits_pickup_cat": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "shipping_is_free_cat": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "buying_mode_cat": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "status_cat": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "shipping_mode_cat": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "seller_loyalty_cat": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "tags_dragged_bids_and_visits": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "tags_good_quality_thumbnail": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "category_id_cat": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0
+    }
+  },
+  "numeric_columns": {
+    "price": {
+      "min": 0.84,
+      "max": 1865.0,
+      "mean": 342.55336197977897,
+      "std": 390.0132002450101
+    },
+    "seller_id": {
+      "min": 1304.0,
+      "max": 194690579.0,
+      "mean": 82513721.55739477,
+      "std": 54277814.88903807
+    },
+    "is_new": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.532083235363273,
+      "std": 0.49897253736410896
+    },
+    "sold_quantity": {
+      "min": 0.0,
+      "max": 8676.0,
+      "mean": 2.4795203385845284,
+      "std": 45.58814047146121
+    },
+    "available_quantity": {
+      "min": 1.0,
+      "max": 9999.0,
+      "mean": 33.713484599106515,
+      "std": 408.3562983649093
+    },
+    "sold": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.17299553256524805,
+      "std": 0.3782456348248846
+    },
+    "weekday": {
+      "min": 1.0,
+      "max": 7.0,
+      "mean": 3.598624500352692,
+      "std": 1.954939907167733
+    },
+    "len_title": {
+      "min": 1.0,
+      "max": 63.0,
+      "mean": 45.33403479896543,
+      "std": 12.79907758736076
+    },
+    "num_variations": {
+      "min": 0.0,
+      "max": 50.0,
+      "mean": 0.2113684458029626,
+      "std": 1.1499196397365967
+    },
+    "num_pictures": {
+      "min": 0.0,
+      "max": 36.0,
+      "mean": 2.711239125323301,
+      "std": 1.8602064833987686
+    },
+    "shipping_admits_pickup_cat": {
+      "min": 1.0,
+      "max": 2.0,
+      "mean": 1.8108864331060428,
+      "std": 0.3916011090030867
+    },
+    "shipping_is_free_cat": {
+      "min": 1.0,
+      "max": 2.0,
+      "mean": 1.024135904067717,
+      "std": 0.15347194893114594
+    },
+    "buying_mode_cat": {
+      "min": 1.0,
+      "max": 3.0,
+      "mean": 1.992052668704444,
+      "std": 0.09726068580185737
+    },
+    "status_cat": {
+      "min": 1.0,
+      "max": 4.0,
+      "mean": 1.1191276745826475,
+      "std": 0.585447612444539
+    },
+    "shipping_mode_cat": {
+      "min": 1.0,
+      "max": 4.0,
+      "mean": 3.3430872325417353,
+      "std": 0.6540861914487107
+    },
+    "seller_loyalty_cat": {
+      "min": 1.0,
+      "max": 7.0,
+      "mean": 1.8659416882200799,
+      "std": 1.7569766880937192
+    },
+    "tags_dragged_bids_and_visits": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.7734657888549259,
+      "std": 0.41859111584726344
+    },
+    "tags_good_quality_thumbnail": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.014213496355513755,
+      "std": 0.11837076329644641
+    },
+    "category_id_cat": {
+      "min": 1.0,
+      "max": 9043.0,
+      "mean": 4143.159604984717,
+      "std": 2457.7355815275764
+    }
+  },
+  "categorical_columns": {
+    "category_id": {
+      "unique_values": 9043,
+      "most_common": {
+        "MLA1227": 4563,
+        "MLA2044": 1945,
+        "MLA41287": 929,
+        "MLA2038": 661,
+        "MLA3530": 632
+      }
+    }
+  }
+}

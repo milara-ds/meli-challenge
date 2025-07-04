@@ -1,0 +1,21 @@
+# Análisis de datos y manipulación
+pandas==2.3.0
+numpy==2.2.0
+scipy==1.16.0
+
+# Machine Learning
+scikit-learn==1.7.0
+xgboost==3.0.2
+
+# Visualización
+matplotlib==3.10.3
+seaborn==0.13.2
+
+# Explicabilidad de modelos
+shap==0.48.0
+
+# Jupyter y ambiente de desarrollo
+ipykernel==6.29.5
+
+# Utilidades
+tqdm==4.67.1
