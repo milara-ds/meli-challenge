@@ -69,7 +69,7 @@ pip install -r requirements.txt
 ```
 
 ## File System
-
+```
 📁 data/
 ├── 📁 raw/
 │   └── new_items_dataset.csv
@@ -100,7 +100,7 @@ pip install -r requirements.txt
 📄 .gitignore
 📄 Desafío_técnico_ACQ25.pdf
 📄 Reporte_challenge_20250704.pdf
-
+```
 
 
 ## Hacer predicción con Random Forest
