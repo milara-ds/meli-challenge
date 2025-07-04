@@ -1,0 +1,33 @@
+{
+  "filas_originales": "N/A",
+  "filas_finales": 85058,
+  "columnas": [
+    "id",
+    "title",
+    "date_created",
+    "base_price",
+    "price",
+    "category_id",
+    "tags",
+    "attributes",
+    "variations",
+    "pictures",
+    "seller_id",
+    "seller_country",
+    "seller_province",
+    "seller_city",
+    "seller_loyalty",
+    "buying_mode",
+    "shipping_mode",
+    "shipping_admits_pickup",
+    "shipping_is_free",
+    "status",
+    "warranty",
+    "is_new",
+    "initial_quantity",
+    "sold_quantity",
+    "available_quantity"
+  ],
+  "fecha_procesamiento": "2025-07-04 02:24:33",
+  "memoria_usado_mb": 167.3298168182373
+}

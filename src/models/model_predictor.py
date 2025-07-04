@@ -385,7 +385,6 @@ class ModelPredictor:
                 **best_params,
                 objective='binary:logistic',
                 random_state=42,
-                use_label_encoder=False,
                 eval_metric='logloss'
             )
             
@@ -789,12 +788,12 @@ class ModelPredictor:
             
     def plot_roc_curves(self) -> Dict[str, float]:
         """
-        Genera y guarda curvas ROC comparativas para todos los modelos entrenados.
+        Genera y muestra curvas ROC comparativas para todos los modelos entrenados.
         
         Esta función:
         1. Calcula y grafica curvas ROC para cada modelo
         2. Compara el rendimiento usando AUC-ROC
-        3. Guarda la visualización en un archivo
+        3. Muestra la visualización en la celda del notebook
         
         Returns:
             Dict[str, float]: Diccionario con los valores AUC-ROC de cada modelo
@@ -814,9 +813,6 @@ class ModelPredictor:
             
             if not trained_models:
                 raise ValueError("No hay modelos entrenados para generar curvas ROC")
-            
-            # Crear directorio para gráficos si no existe
-            os.makedirs('plots', exist_ok=True)
             
             # Configurar el gráfico
             plt.figure(figsize=(10, 8))
@@ -852,14 +848,12 @@ class ModelPredictor:
             plt.legend(loc='lower right')
             plt.grid(True, alpha=0.3)
             
-            # Guardar gráfico
-            plt.savefig('plots/roc_curves_comparison.png')
-            plt.close()
+            # Mostrar el gráfico
+            plt.show()
             
             # Registrar resultados
             self.logger.info(
                 f"Curvas ROC generadas exitosamente:\n"
-                f"- Gráfico guardado como 'plots/roc_curves_comparison.png'\n"
                 f"- Scores AUC-ROC:\n" +
                 "\n".join(f"  • {name}: {score:.4f}" for name, score in auc_scores.items())
             )
